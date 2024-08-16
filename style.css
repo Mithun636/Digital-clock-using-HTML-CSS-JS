@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #141d31;
+}
+
+.clock {
+    text-align: center;
+    color: rgb(10, 156, 247);
+    background-color: #010e21;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: rgba(149, 173, 233, 0.553);
+}
+
+#time {
+    font-size: 4em;
+    letter-spacing: 2px;
+}
+
+#date {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
